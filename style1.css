@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+}
+.profile {
+    background-color: black;
+    color: whitesmoke;
+    height: 400px;
+    text-align: center;
+}
+.profile .img {
+    margin-bottom: 10px;
+}
+.profile .username {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.flex div {
+    margin-right: 10px;
+    background-color: rgb(79, 75, 75);
+    padding: 5px 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+    background-color: rgb(235, 225, 211);
+}
+.grid-container div {
+    width: 170px;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 10%;
+}
+.grid-container div:hover {
+    background-color: blanchedalmond;
+}
